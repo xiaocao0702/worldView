@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my-journey.css" rel="stylesheet">
  <!--    <link href="css/style.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -18,24 +19,48 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <!-- top start -->
+    <div class="container bk-white">
+      <!-- nav start -->
+      <nav>
+        <div class="row c-header">
+          <div class="col-md-4 col-xm-4 col-xs-4">
+            <div class="ch h-back">
+              <span class="icon back"></span>
+            </div>
+          </div>
+          <div class="col-md-4 col-xm-4 col-xs-4">
+            <div class="ch h-center">
+              <span class="icon logo size45"></span>
+            </div>
+          </div>
+          <div class="col-md-4 col-xm-4 col-xs-4">
+            <div class="ch h-help">
+              <span class="icon help"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+      <!-- title start -->
       <div class="row">
-        <div class="col-md-4"><span class="icon back"></span></div>
-        <div class="col-md-4"><span class="icon logo"></span></div>
-        <div class="col-md-4"><span class="icon help"></span></div>
-        <img alt="" src="images/back@2x.png">
-        <img alt="" src="images/logo@2x.png">
-        <img alt="" src="images/earth@2x.png">
+        <div class="col-md-12">
+          <h4 class="c-title">我的行程单</h4>
+        </div>
       </div>
-      
+      <!-- title end -->
+      <!-- tab start -->
       <div class="row">
-        <div class="col-md-6">.col-md-8</div>
-        <div class="col-md-6">.col-md-4</div>
+        <div class="col-md-6 col-xm-6 col-xs-6 c-tabs">
+          <a href="#" class="tb-item selected">未成行</a>
+        </div>
+        <div class="col-md-6 col-xm-6 col-xs-6 c-tabs">
+          <a href="#" class="tb-item">已成行</a>
+        </div>
       </div>
+      <!-- tab end -->
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="plugin/bootstrap/js/bootstrap.min.js"></script>
   </body>

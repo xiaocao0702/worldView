@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: SimHei;
+}
+
+body {
+  background-color: #F1F0F0;
+}
+
+.bk-white {
+  background: #fff;
+}
+
+/** header **/
+.c-header {
+  z-index: 999;
+  border-bottom: 2px solid #ddd;
+}
+
+.c-header .ch {
+  height: 48px;
+  line-height: 48px;
+}
+
+.c-header .ch span {
+  vertical-align: middle;
+}
+
+.c-header .h-back {
+  text-align: left;
+}
+
+.c-header .h-center {
+  text-align: center;
+}
+
+.c-header .h-help {
+  text-align: right;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  display: inline-block;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  background-image: url("../images/logo@2x.png");
+}
+
+.back {
+  background-image: url("../images/back@2x.png");
+}
+
+.help {
+  background-image: url("../images/earth@2x.png");
+}
+
+.size45 {
+  width:45px;
+  height: 45px;
+}
+
+.sback {
+  text-align: left;
+}
+
+.sHelp {
+  text-align: right;
+}
+
+/** content **/
+.c-title {
+  height:48px;
+  text-align: center;
+  margin: 0;
+  line-height: 48px
+}
+
+.c-tabs{
+  border-top: 2px solid #ED5256;
+  border-bottom: 2px solid #ED5256;
+  padding:0;
+}
+
+.c-tabs .tb-item{
+  display: inline-block;
+  height:45px;
+  width:100%;
+  font-size: 15px;
+  line-height: 45px;
+  color:#ED5256;
+  text-decoration: none;
+  text-align: center;
+}
+
+.c-tabs .selected{
+  color:#fff;
+  background-color: #ED5256;
+}
