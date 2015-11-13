@@ -8,7 +8,7 @@
 
 <!-- Bootstrap -->
 <link href="plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="css/my-journey.css" rel="stylesheet">
+<link href="css/my-order-phone.css" rel="stylesheet">
 <!--    <link href="css/style.css" rel="stylesheet"> -->
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -61,15 +61,16 @@
     <div class="row faderbar"></div>
     <!-- content start -->
     <div class="row">
+      <!-- payed -->
       <div class="col-md-6 col-xm-12 col-xs-12">
         <div class="row c-item">
-          <div class="col-md-4 col-xm-4 col-xs-12 i-border unpay">
+          <div class="col-md-4 col-xm-4 col-xs-4 i-border payed">
             <div class="i-pic">
-              <img src="images/touxiang01@2x.png" class="pic">
+              <img src="images/touxiang01@2x.png" class="pic female">
             </div>
             <p class="pic-title">John 樊涛 </p>
           </div>
-          <div class="col-md-8 col-xm-8 col-xs-12  i-info">
+          <div class="col-md-8 col-xm-8 col-xs-8  i-info">
             <h4 class="info-title">漫步诗人，意大利的魅力。。。</h4>
             <p class="info-desc">感受意大利文化的积淀，走进不一样的世界</p>
             <div class="row info-prod">
@@ -84,7 +85,7 @@
                 </ul>
               </div>
               <div class="col-md-6 col-xm-6 col-xs-6 prod-priceInfo">
-                <p class="price"><i>$</i><i>210</i></p>
+                <p class="price"><i class="p-unit">$</i><i class="p-value">210</i></p>
                 <a class="btn detailBtn">查看详情</a>
               </div>
             </div>
@@ -92,20 +93,22 @@
         </div>
         <div class="row borderline"></div>
       </div>
+      <!-- payed -->
+      <!-- unpay  -->
       <div class="col-md-6 col-xm-12 col-xs-12">
         <div class="row c-item">
-          <div class="col-md-4 col-xm-4 col-xs-12 i-border unpay">
+          <div class="col-md-4 col-xm-4 col-xs-4 i-border unpay">
             <div class="i-pic">
-              <img src="images/touxiang01@2x.png" class="pic">
+              <img src="images/touxiang02@2x.png" class="pic male">
             </div>
             <p class="pic-title">John 樊涛 </p>
           </div>
-          <div class="col-md-8 col-xm-8 col-xs-12  i-info">
+          <div class="col-md-8 col-xm-8 col-xs-8  i-info">
             <h4 class="info-title">漫步诗人，意大利的魅力。。。</h4>
             <p class="info-desc">感受意大利文化的积淀，走进不一样的世界</p>
             <div class="row info-prod">
               <div class="col-md-6 col-xm-6 col-xs-6 prod-eval">
-                <p class="time">还剩<i>15天09小时</i></p>
+                <p class="time">剩<i>15天09小时</i></p>
                 <ul class="list-inline appraise">
                   <li class="star-solid"></li>
                   <li class="star-solid"></li>
@@ -115,28 +118,30 @@
                 </ul>
               </div>
               <div class="col-md-6 col-xm-6 col-xs-6 prod-priceInfo">
-                <p class="price"><i>$</i><i>210</i></p>
-                <a class="btn detailBtn">查看详情</a>
+                <p class="price"><i class="p-unit">$</i><i class="p-value">210</i></p>
+                <a class="btn detailBtn">立即支付</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row borderline"></div>
       </div>
+      <!-- unpay  -->
+      <!-- expired -->
       <div class="col-md-6 col-xm-12 col-xs-12">
-        <div class="row c-item">
-          <div class="col-md-4 col-xm-4 col-xs-12 i-border unpay">
+        <div class="row c-item expired">
+          <div class="col-md-4 col-xm-4 col-xs-4 i-border">
             <div class="i-pic">
-              <img src="images/touxiang01@2x.png" class="pic">
+              <img src="images/touxiang03@2x.png" class="pic female">
             </div>
             <p class="pic-title">John 樊涛 </p>
           </div>
-          <div class="col-md-8 col-xm-8 col-xs-12  i-info">
+          <div class="col-md-8 col-xm-8 col-xs-8  i-info">
             <h4 class="info-title">漫步诗人，意大利的魅力。。。</h4>
             <p class="info-desc">感受意大利文化的积淀，走进不一样的世界</p>
             <div class="row info-prod">
               <div class="col-md-6 col-xm-6 col-xs-6 prod-eval">
-                <p class="time">还剩<i>15天09小时</i></p>
+                <p class="time"></p>
                 <ul class="list-inline appraise">
                   <li class="star-solid"></li>
                   <li class="star-solid"></li>
@@ -146,28 +151,29 @@
                 </ul>
               </div>
               <div class="col-md-6 col-xm-6 col-xs-6 prod-priceInfo">
-                <p class="price"><i>$</i><i>210</i></p>
-                <a class="btn detailBtn">查看详情</a>
+                <p class="price"><i class="p-unit">$</i><i class="p-value">210</i></p>
+                <a class="btn expiredBtn">已经过期</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row borderline"></div>
       </div>
+      <!-- expired -->
       <div class="col-md-6 col-xm-12 col-xs-12">
         <div class="row c-item">
-          <div class="col-md-4 col-xm-4 col-xs-12 i-border unpay">
+          <div class="col-md-4 col-xm-4 col-xs-4 i-border unpay">
             <div class="i-pic">
-              <img src="images/touxiang01@2x.png" class="pic">
+              <img src="images/touxiang04@2x.png" class="pic male">
             </div>
             <p class="pic-title">John 樊涛 </p>
           </div>
-          <div class="col-md-8 col-xm-8 col-xs-12  i-info">
+          <div class="col-md-8 col-xm-8 col-xs-8  i-info">
             <h4 class="info-title">漫步诗人，意大利的魅力。。。</h4>
             <p class="info-desc">感受意大利文化的积淀，走进不一样的世界</p>
             <div class="row info-prod">
               <div class="col-md-6 col-xm-6 col-xs-6 prod-eval">
-                <p class="time">还剩<i>15天09小时</i></p>
+                <p class="time">剩<i>15天09小时</i></p>
                 <ul class="list-inline appraise">
                   <li class="star-solid"></li>
                   <li class="star-solid"></li>
@@ -177,106 +183,13 @@
                 </ul>
               </div>
               <div class="col-md-6 col-xm-6 col-xs-6 prod-priceInfo">
-                <p class="price"><i>$</i><i>210</i></p>
-                <a class="btn detailBtn">查看详情</a>
+                <p class="price"><i class="p-unit">$</i><i class="p-value">210</i></p>
+                <a class="btn detailBtn">立即支付</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row borderline"></div>
-      </div>
-      <div class="col-md-6 col-xm-12 col-xs-12">
-        <div class="row c-item">
-          <div class="col-md-4 col-xm-4 col-xs-12 i-border unpay">
-            <div class="i-pic">
-              <img src="images/touxiang01@2x.png" class="pic">
-            </div>
-            <p class="pic-title">John 樊涛 </p>
-          </div>
-          <div class="col-md-8 col-xm-8 col-xs-12  i-info">
-            <h4 class="info-title">漫步诗人，意大利的魅力。。。</h4>
-            <p class="info-desc">感受意大利文化的积淀，走进不一样的世界</p>
-            <div class="row info-prod">
-              <div class="col-md-6 col-xm-6 col-xs-6 prod-eval">
-                <p class="time">还剩<i>15天09小时</i></p>
-                <ul class="list-inline appraise">
-                  <li class="star-solid"></li>
-                  <li class="star-solid"></li>
-                  <li class="star-solid"></li>
-                  <li class="star-hollow"></li>
-                  <li class="star-hollow"></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-xm-6 col-xs-6 prod-priceInfo">
-                <p class="price"><i>$</i><i>210</i></p>
-                <a class="btn detailBtn">查看详情</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row borderline"></div>
-      </div>
-      <div class="col-md-6 col-xm-12 col-xs-12">
-        <div class="row c-item">
-          <div class="col-md-4 col-xm-4 col-xs-12 i-border unpay">
-            <div class="i-pic">
-              <img src="images/touxiang01@2x.png" class="pic">
-            </div>
-            <p class="pic-title">John 樊涛 </p>
-          </div>
-          <div class="col-md-8 col-xm-8 col-xs-12  i-info">
-            <h4 class="info-title">漫步诗人，意大利的魅力。。。</h4>
-            <p class="info-desc">感受意大利文化的积淀，走进不一样的世界</p>
-            <div class="row info-prod">
-              <div class="col-md-6 col-xm-6 col-xs-6 prod-eval">
-                <p class="time">还剩<i>15天09小时</i></p>
-                <ul class="list-inline appraise">
-                  <li class="star-solid"></li>
-                  <li class="star-solid"></li>
-                  <li class="star-solid"></li>
-                  <li class="star-hollow"></li>
-                  <li class="star-hollow"></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-xm-6 col-xs-6 prod-priceInfo">
-                <p class="price"><i>$</i><i>210</i></p>
-                <a class="btn detailBtn">查看详情</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row borderline"></div>
-      </div>
-      <div class="col-md-6 col-xm-12 col-xs-12">
-        <div class="row c-item">
-          <div class="col-md-4 col-xm-4 col-xs-12 i-border unpay">
-            <div class="i-pic">
-              <img src="images/touxiang01@2x.png" class="pic">
-            </div>
-            <p class="pic-title">John 樊涛 </p>
-          </div>
-          <div class="col-md-8 col-xm-8 col-xs-12  i-info">
-            <h4 class="info-title">漫步诗人，意大利的魅力。。。</h4>
-            <p class="info-desc">感受意大利文化的积淀，走进不一样的世界</p>
-            <div class="row info-prod">
-              <div class="col-md-6 col-xm-6 col-xs-6 prod-eval">
-                <p class="time">还剩<i>15天09小时</i></p>
-                <ul class="list-inline appraise">
-                  <li class="star-solid"></li>
-                  <li class="star-solid"></li>
-                  <li class="star-solid"></li>
-                  <li class="star-hollow"></li>
-                  <li class="star-hollow"></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-xm-6 col-xs-6 prod-priceInfo">
-                <p class="price"><i>$</i><i>210</i></p>
-                <a class="btn detailBtn">查看详情</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="row borderline"></div> -->
       </div>
     </div>
     <!-- content end -->
